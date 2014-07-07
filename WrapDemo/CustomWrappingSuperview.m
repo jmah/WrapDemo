@@ -3,7 +3,7 @@
 //  WrapDemo
 //
 //  Created by Jonathon Mah on 2014-07-06.
-//  Copyright (c) 2014 Jonathon Mah. All rights reserved.
+//  This is free and unencumbered software released into the public domain.
 //
 
 #import "CustomWrappingSuperview.h"

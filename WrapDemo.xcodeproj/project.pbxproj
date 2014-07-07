@@ -39,6 +39,7 @@
 		0BB3D5B6196A5D2500A9AC5C /* MyWrappingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWrappingView.m; sourceTree = "<group>"; };
 		0BB3D5B8196A5D3E00A9AC5C /* CustomWrappingSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWrappingSuperview.h; sourceTree = "<group>"; };
 		0BB3D5B9196A5D3E00A9AC5C /* CustomWrappingSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWrappingSuperview.m; sourceTree = "<group>"; };
+		0BB3D5BB196B242800A9AC5C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		0B43732D19679953007B2F74 = {
 			isa = PBXGroup;
 			children = (
+				0BB3D5BB196B242800A9AC5C /* LICENSE */,
 				0B43733F19679953007B2F74 /* WrapDemo */,
 				0B43733819679953007B2F74 /* Frameworks */,
 				0B43733719679953007B2F74 /* Products */,
