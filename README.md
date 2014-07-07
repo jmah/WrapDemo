@@ -5,7 +5,7 @@ It contains examples of text wrapping, and a custom view that implements its own
 
 These techniques are explained on dev etc: [Auto Layout and Views that Wrap](http://localhost:4000/code/2014/07/07/auto-layout-and-views-that-wrap.html).
 
-<img alt="WrapDemo iPhone Simulator Screenshot" src="//raw.githubusercontent.com/jmah/WrapDemo/screenshots/wrapdemo-screeshot.png" width="386">
+<img alt="WrapDemo iPhone Simulator Screenshot" src="https://raw.githubusercontent.com/jmah/WrapDemo/screenshots/wrapdemo-screenshot.png" width="386">
 
 
 ## License
