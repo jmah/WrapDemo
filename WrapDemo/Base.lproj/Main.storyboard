@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="58" width="320" height="510"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJg-aJ-Qqk">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJg-aJ-Qqk">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Just plain constraints. Lorem ipsum dolor sit amet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Gbl-BG-UlZ">
@@ -41,14 +41,14 @@
                                         <constraints>
                                             <constraint firstItem="Gbl-BG-UlZ" firstAttribute="leading" secondItem="aJg-aJ-Qqk" secondAttribute="leading" constant="20" symbolic="YES" id="JfW-5R-Sqf"/>
                                             <constraint firstAttribute="trailing" secondItem="Gbl-BG-UlZ" secondAttribute="trailing" constant="20" symbolic="YES" id="WeF-jF-Hse"/>
-                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="cbH-2A-mLK" secondAttribute="bottom" id="fzG-Rf-PKO"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Gbl-BG-UlZ" secondAttribute="bottom" id="ZRv-Mc-R2R"/>
                                             <constraint firstAttribute="centerX" secondItem="cbH-2A-mLK" secondAttribute="centerX" id="kDk-IG-AOQ"/>
                                             <constraint firstAttribute="height" constant="80" id="tSg-dv-bkl"/>
                                             <constraint firstItem="cbH-2A-mLK" firstAttribute="top" secondItem="Gbl-BG-UlZ" secondAttribute="bottom" constant="8" id="yu6-l3-7pQ"/>
                                             <constraint firstItem="Gbl-BG-UlZ" firstAttribute="top" secondItem="aJg-aJ-Qqk" secondAttribute="top" id="zNr-Aj-zYs"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3If-aY-05v" userLabel="Label Wrapping Superview" customClass="LabelWrappingSuperview">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3If-aY-05v" userLabel="Label Wrapping Superview" customClass="LabelWrappingSuperview">
                                         <rect key="frame" x="0.0" y="88" width="320" height="120"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Custom superview that sets preferred max layout width." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="YZM-mP-hUu">
@@ -67,10 +67,10 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.92619077620000001" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="YZM-mP-hUu" secondAttribute="bottom" id="597-QY-2tA"/>
                                             <constraint firstItem="If6-uM-G0e" firstAttribute="top" secondItem="YZM-mP-hUu" secondAttribute="bottom" constant="8" symbolic="YES" id="5k1-4D-4kY"/>
                                             <constraint firstAttribute="trailing" secondItem="YZM-mP-hUu" secondAttribute="trailing" constant="20" symbolic="YES" id="agb-oV-1fL"/>
                                             <constraint firstItem="YZM-mP-hUu" firstAttribute="leading" secondItem="3If-aY-05v" secondAttribute="leading" constant="20" symbolic="YES" id="qJh-zi-Zze"/>
-                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="If6-uM-G0e" secondAttribute="bottom" id="qdo-C1-0rN"/>
                                             <constraint firstAttribute="centerX" secondItem="If6-uM-G0e" secondAttribute="centerX" id="rmA-dC-n7W"/>
                                             <constraint firstItem="YZM-mP-hUu" firstAttribute="top" secondItem="3If-aY-05v" secondAttribute="top" id="sVN-28-v3m"/>
                                             <constraint firstAttribute="height" constant="120" id="wZK-OI-kIW"/>
@@ -79,7 +79,7 @@
                                             <outlet property="label" destination="YZM-mP-hUu" id="gg0-qr-OGh"/>
                                         </connections>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Diy-yh-Sfz" userLabel="Custom Wrapping Superview" customClass="CustomWrappingSuperview">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Diy-yh-Sfz" userLabel="Custom Wrapping Superview" customClass="CustomWrappingSuperview">
                                         <rect key="frame" x="0.0" y="216" width="320" height="120"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QcE-uN-UnZ">
@@ -111,7 +111,7 @@
                                             <outlet property="wrappingView" destination="tHs-CU-RIP" id="hxK-yl-qdd"/>
                                         </connections>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I5T-M6-Mdw" userLabel="Label Shrink-Wrapping Superview" customClass="LabelShrinkWrappingSuperview">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I5T-M6-Mdw" userLabel="Label Shrink-Wrapping Superview" customClass="LabelShrinkWrappingSuperview">
                                         <rect key="frame" x="0.0" y="344" width="320" height="80"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Custom shrink wrapping" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="188" translatesAutoresizingMaskIntoConstraints="NO" id="ZQW-kb-AOK">
@@ -131,10 +131,10 @@
                                         <color key="backgroundColor" white="0.92619077620000001" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="centerX" secondItem="ZQW-kb-AOK" secondAttribute="centerX" id="26o-ZO-N7T"/>
-                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="fmF-hK-ak0" secondAttribute="bottom" id="Kda-Du-X5s"/>
                                             <constraint firstAttribute="height" constant="80" id="TRM-MF-Y6Q"/>
                                             <constraint firstItem="fmF-hK-ak0" firstAttribute="top" secondItem="ZQW-kb-AOK" secondAttribute="bottom" constant="8" symbolic="YES" id="hIp-4S-v6M"/>
                                             <constraint firstItem="ZQW-kb-AOK" firstAttribute="top" secondItem="I5T-M6-Mdw" secondAttribute="top" id="lvo-P6-eM5"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZQW-kb-AOK" secondAttribute="bottom" id="nz4-pd-I93"/>
                                             <constraint firstAttribute="centerX" secondItem="fmF-hK-ak0" secondAttribute="centerX" id="rcF-xb-Wsh"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZQW-kb-AOK" secondAttribute="trailing" constant="20" symbolic="YES" id="sXX-ub-t9E"/>
                                         </constraints>
