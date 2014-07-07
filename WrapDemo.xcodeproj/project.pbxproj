@@ -14,6 +14,10 @@
 		0B43734D19679953007B2F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B43734B19679953007B2F74 /* Main.storyboard */; };
 		0B43735019679953007B2F74 /* WrapDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B43734F19679953007B2F74 /* WrapDemoViewController.m */; };
 		0B43736F196799F0007B2F74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B43736E196799F0007B2F74 /* Images.xcassets */; };
+		0BB3D5B1196A438700A9AC5C /* LabelWrappingSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3D5B0196A438700A9AC5C /* LabelWrappingSuperview.m */; };
+		0BB3D5B4196A43AC00A9AC5C /* LabelShrinkWrappingSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3D5B3196A43AC00A9AC5C /* LabelShrinkWrappingSuperview.m */; };
+		0BB3D5B7196A5D2500A9AC5C /* MyWrappingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3D5B6196A5D2500A9AC5C /* MyWrappingView.m */; };
+		0BB3D5BA196A5D3E00A9AC5C /* CustomWrappingSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3D5B9196A5D3E00A9AC5C /* CustomWrappingSuperview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,14 @@
 		0B43734E19679953007B2F74 /* WrapDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrapDemoViewController.h; sourceTree = "<group>"; };
 		0B43734F19679953007B2F74 /* WrapDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrapDemoViewController.m; sourceTree = "<group>"; };
 		0B43736E196799F0007B2F74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BB3D5AF196A438700A9AC5C /* LabelWrappingSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelWrappingSuperview.h; sourceTree = "<group>"; };
+		0BB3D5B0196A438700A9AC5C /* LabelWrappingSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelWrappingSuperview.m; sourceTree = "<group>"; };
+		0BB3D5B2196A43AB00A9AC5C /* LabelShrinkWrappingSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelShrinkWrappingSuperview.h; sourceTree = "<group>"; };
+		0BB3D5B3196A43AC00A9AC5C /* LabelShrinkWrappingSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelShrinkWrappingSuperview.m; sourceTree = "<group>"; };
+		0BB3D5B5196A5D2500A9AC5C /* MyWrappingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWrappingView.h; sourceTree = "<group>"; };
+		0BB3D5B6196A5D2500A9AC5C /* MyWrappingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWrappingView.m; sourceTree = "<group>"; };
+		0BB3D5B8196A5D3E00A9AC5C /* CustomWrappingSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWrappingSuperview.h; sourceTree = "<group>"; };
+		0BB3D5B9196A5D3E00A9AC5C /* CustomWrappingSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWrappingSuperview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,14 @@
 				0B43734B19679953007B2F74 /* Main.storyboard */,
 				0B43734E19679953007B2F74 /* WrapDemoViewController.h */,
 				0B43734F19679953007B2F74 /* WrapDemoViewController.m */,
+				0BB3D5AF196A438700A9AC5C /* LabelWrappingSuperview.h */,
+				0BB3D5B0196A438700A9AC5C /* LabelWrappingSuperview.m */,
+				0BB3D5B5196A5D2500A9AC5C /* MyWrappingView.h */,
+				0BB3D5B6196A5D2500A9AC5C /* MyWrappingView.m */,
+				0BB3D5B8196A5D3E00A9AC5C /* CustomWrappingSuperview.h */,
+				0BB3D5B9196A5D3E00A9AC5C /* CustomWrappingSuperview.m */,
+				0BB3D5B2196A43AB00A9AC5C /* LabelShrinkWrappingSuperview.h */,
+				0BB3D5B3196A43AC00A9AC5C /* LabelShrinkWrappingSuperview.m */,
 				0B43734119679953007B2F74 /* WrapDemo-Info.plist */,
 				0B43736E196799F0007B2F74 /* Images.xcassets */,
 			);
@@ -148,7 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB3D5B1196A438700A9AC5C /* LabelWrappingSuperview.m in Sources */,
+				0BB3D5B4196A43AC00A9AC5C /* LabelShrinkWrappingSuperview.m in Sources */,
+				0BB3D5BA196A5D3E00A9AC5C /* CustomWrappingSuperview.m in Sources */,
 				0B43734619679953007B2F74 /* main.m in Sources */,
+				0BB3D5B7196A5D2500A9AC5C /* MyWrappingView.m in Sources */,
 				0B43735019679953007B2F74 /* WrapDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +302,7 @@
 				0B43736A19679953007B2F74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

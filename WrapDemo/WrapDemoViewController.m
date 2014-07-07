@@ -11,4 +11,15 @@
 
 @implementation WrapDemoViewController
 
+- (void)viewWillLayoutSubviews
+{
+	[super viewWillLayoutSubviews];
+	[self updatePrimaryViewWidth];
+}
+
+- (IBAction)updatePrimaryViewWidth
+{
+	self.primaryWidthConstraint.constant = (self.view.bounds.size.width * self.widthSlider.value);
+}
+
 @end
