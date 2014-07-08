@@ -13,7 +13,7 @@
 
 - (void)layoutSubviews
 {
-	NSLayoutConstraint *labelAsWideAsPossibleConstraint = [NSLayoutConstraint constraintWithItem:self.label attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1.0 constant:1e8];
+	NSLayoutConstraint *labelAsWideAsPossibleConstraint = [NSLayoutConstraint constraintWithItem:self.label attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationGreaterThanOrEqual toItem:nil attribute:0 multiplier:1.0 constant:1e8];
 	labelAsWideAsPossibleConstraint.priority = [self.label contentCompressionResistancePriorityForAxis:UILayoutConstraintAxisHorizontal];
 	[self.label addConstraint:labelAsWideAsPossibleConstraint];
 
